@@ -1,50 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
 
 * {
-	padding: 0px;
-	margin: 0px;
-	border: none;
+  padding: 0px;
+  margin: 0px;
+  border: none;
   font-family: Jost;
 }
 
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Links */
 
-a, a:link, a:visited  {
-    text-decoration: none;
+a,
+a:link,
+a:visited {
+  text-decoration: none;
 }
 
-a:hover  {
-    text-decoration: none;
+a:hover {
+  text-decoration: none;
 }
 
 /* Common */
 
-aside, nav, footer, header, section, main {
-	display: block;
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-    font-size: inherit;
-	font-weight: inherit;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
 }
 
-ul, ul li {
-	list-style: none;
+ul,
+ul li {
+  list-style: none;
 }
 
 img {
-	vertical-align: top;
+  vertical-align: top;
 }
 
-img, svg {
-	max-width: 100%;
-	height: auto;
+img,
+svg {
+  max-width: 100%;
+  height: auto;
 }
 
 address {
@@ -54,7 +69,7 @@ address {
 .header {
   width: calc(100vw - var(--scrollbar-width));
   height: 100vh;
-  background-image: url('image/background/modern-office-space-illuminated-by-glowing-computer-monitor-generated-by-ai.jpg');
+  background-image: url('/image/background/main-bg.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -75,12 +90,12 @@ address {
 }
 
 .header__text {
-  color:black;
+  color: black;
   font-size: 20px;
-}
 
-.header__text:hover {
-  color: rgb(70, 70, 70);
+  &:hover {
+    color: rgb(70, 70, 70);
+  }
 }
 
 .header__burger {
@@ -132,6 +147,7 @@ main {
   font-size: 32px;
   padding-bottom: 10px;
 }
+
 .application__subtitle {
   font-weight: 400;
   font-size: 16px;
@@ -176,10 +192,10 @@ main {
   justify-content: center;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-}
 
-.application__block--3:hover {
-  background-color: #a24a66;
+  &:hover {
+    background-color: #a24a66;
+  }
 }
 
 .application__block--3 p {
