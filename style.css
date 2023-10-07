@@ -174,8 +174,20 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.application__block--3:hover {
+  background-color: #a24a66;
 }
 
 .application__block--3 p {
   color: #fff;
+}
+
+.application__block input {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
 }
