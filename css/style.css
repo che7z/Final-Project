@@ -286,7 +286,7 @@ legend {
   height: 70px;
   margin-top: 10px;
   background-color: #fff;
-  border-radius: 30px;
+  border-radius: 15px;
   -webkit-transition: -webkit-transform 0.8s ease-in;
   transition: -webkit-transform 0.8s ease-in;
   transition: transform 0.8s ease-in;
