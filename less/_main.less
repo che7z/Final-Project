@@ -133,10 +133,12 @@ html {
   margin-top: 10px;
   background-color: #fff;
   border-radius: 15px;
-  transition: transform .8s ease-in;
+  transition: transform .5s ease-in;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  z-index: 5;
+
     -webkit-box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
     -moz-box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
     box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
@@ -288,9 +290,9 @@ main {
   padding-bottom: 50px;
   transition: all 0.2s ease-in-out;
 
-    &:hover {
-      transform: scale(1.02, 1.02)
-    }
+  &:hover {
+    transform: scale(1.02, 1.02)
+  }
 }
 
 .service--1 p {
@@ -320,9 +322,9 @@ main {
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 
-    &:hover {
-      transform: scale(1.02, 1.02)
-    }
+  &:hover {
+    transform: scale(1.02, 1.02)
+  }
 }
 
 .service p {
@@ -346,4 +348,73 @@ main {
 
 .service--5 {
   background-image: url('/image/services/laptop.jpg');
+}
+
+.offers {
+  height: 1100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.offers__titles {
+  padding-top: 100px;
+}
+
+.offers__firstTitle {
+  color: #65AEF2;
+  font-size: 26px;
+}
+
+.offers__secondTitle {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.offers__thirdTitle {
+  font-size: 20px;
+}
+
+.offers__title {
+  padding-left: 80px;
+  margin-bottom: 10px;
+}
+
+.offers__cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 150px;
+}
+
+.offers__card {
+  height: 600px;
+  width: 450px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.offers__card img {
+  border-radius: 30px;
+  width: 420px;
+}
+
+.offers__cardTitle {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.offers__cardSubTitle {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.offers__cardPrice {
+  font-size: 28px;
+  font-weight: 700;
 }
