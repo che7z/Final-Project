@@ -266,6 +266,9 @@ label {
 legend {
   display: block;
 }
+html {
+  scroll-behavior: smooth;
+}
 .header {
   width: calc(100vw - var(--scrollbar-width));
   height: 100vh;
@@ -467,6 +470,12 @@ main {
       -ms-flex-align: end;
           align-items: flex-end;
   padding-bottom: 50px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.service--1:hover {
+  -webkit-transform: scale(1.02, 1.02);
+          transform: scale(1.02, 1.02);
 }
 .service--1 p {
   text-align: center;
@@ -498,10 +507,13 @@ main {
           align-items: flex-end;
   padding-bottom: 30px;
   margin: 20px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .service:hover {
-  -webkit-filter: grayscale(10%);
-          filter: grayscale(10%);
+  -webkit-transform: scale(1.02, 1.02);
+          transform: scale(1.02, 1.02);
 }
 .service p {
   text-align: center;

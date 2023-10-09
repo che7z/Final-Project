@@ -111,6 +111,10 @@ legend {
   display: block;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .header {
   width: calc(100vw - var(--scrollbar-width));
   height: 100vh;
@@ -282,6 +286,11 @@ main {
   justify-content: center;
   align-items: flex-end;
   padding-bottom: 50px;
+  transition: all 0.2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.02, 1.02)
+    }
 }
 
 .service--1 p {
@@ -308,9 +317,11 @@ main {
   align-items: flex-end;
   padding-bottom: 30px;
   margin: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 
     &:hover {
-      filter: grayscale(10%);
+      transform: scale(1.02, 1.02)
     }
 }
 
