@@ -133,7 +133,7 @@ html {
   margin-top: 10px;
   background-color: #fff;
   border-radius: 15px;
-  transition: transform .5s ease-in;
+  transition: transform .3s ease-in;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -434,12 +434,20 @@ main {
 
 .footer__box {
   display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
 .footer__container p {
   font-size: 40px;
   color: #fff;
+  padding-top: 120px;
 }
 
 .footer__buttonContainer {
@@ -458,8 +466,8 @@ main {
 
 .footer__buttonContainer a {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 150px;
   height: 70px;
   background-color: #DC668B;
@@ -471,4 +479,38 @@ main {
   &:hover {
     background-color: #a24a66;
   }
+}
+
+.footer__aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.footer__nav {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__nav a {
+  color: #fff;
+
+    &:hover {
+      color:#DC668B;
+    }
+}
+
+.footer__bottomContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 220px;
+}
+
+.footer__bottomContainer p {
+  border-top: #4e4e4e 1px solid;
+  padding: 20px 15px 0 15px;
+  color: #fff;
 }
