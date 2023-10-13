@@ -357,7 +357,8 @@ main {
           align-items: center;
 }
 .application__box {
-  background-color: #E8F4F1;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff5f5), to(#e7b4b4));
+  background: linear-gradient(#fff5f5, #e7b4b4);
   width: 1100px;
   height: 380px;
   border-radius: 30px;
