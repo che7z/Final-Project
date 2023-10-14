@@ -272,7 +272,7 @@ html {
 .header {
   width: calc(100vw - var(--scrollbar-width));
   height: 100vh;
-  background-image: url('/image/background/main-bg.jpg');
+  background-image: url('./image/background/main-bg.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -468,7 +468,7 @@ main {
 .service--1 {
   height: 740px;
   width: 400px;
-  background-image: url('/image/services/vertical.jpg');
+  background-image: url('./image/services/vertical.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -555,16 +555,16 @@ main {
   font-weight: 700;
 }
 .service--2 {
-  background-image: url('/image/services/disk.jpg');
+  background-image: url('./image/services/disk.jpg');
 }
 .service--3 {
-  background-image: url('/image/services/disk-2.jpg');
+  background-image: url('./image/services/disk-2.jpg');
 }
 .service--4 {
-  background-image: url('/image/services/processor.jpg');
+  background-image: url('./image/services/processor.jpg');
 }
 .service--5 {
-  background-image: url('/image/services/laptop.jpg');
+  background-image: url('.image/services/laptop.jpg');
 }
 .offers {
   height: 1100px;
