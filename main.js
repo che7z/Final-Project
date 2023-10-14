@@ -1,3 +1,5 @@
+//menu
+
 let lastScroll = 0
 const defaultOffset = 200
 const header = document.querySelector('.header__menu')
@@ -22,3 +24,20 @@ window.addEventListener('scroll', function() {
   
   lastScroll = scrollPosition()
 })
+
+
+//popup .lock 
+
+// const body = document.body
+// const click = document.querySelector('#click')
+
+// click.addEventListener('click', isChecked)
+
+// function isChecked() {
+//   if (click.checked) {
+//     body.classList.add('lock')
+//     header.classList.add('hide')
+//   } else {
+//     body.classList.remove('lock')
+//   }
+// }

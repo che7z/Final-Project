@@ -60,7 +60,7 @@
           <div class="application__div application__div--1">
             <p>Ваше имя</p>
             <div class="application__block application__block--1">
-              <input type="text">
+              <input type="user_name">
             </div>
           </div>
           <div class="application__div application__div--2">
@@ -69,11 +69,28 @@
               <input type="tel" placeholder="+7(999) 999-99-99">
             </div>
           </div>
-          <div class="application__div application__div--3">
-            <div class="application__block application__block--3">
-              <p>Отправить</p>
+          <!-- <div class="application__div application__div--3"> -->
+            <input type="checkbox" id="click" class="application__block application__block--3"></input>
+            <label for="click" class="button">Отправить</label>
+          <!-- </div> -->
+
+          <div class="popup">
+            <div class="window">
+              <div class="title">
+                <p>Заявка успешно отправлена</p>
+                <div class="body">
+                  <p>
+                    Спасибо за заявку! Мы ответим вам в ближайшее время
+                  </p>
+                </div>
+                <div class="bottom">
+                  <label for="click" class="close">Закрыть</label>
+                </div>
+              </div>
             </div>
+            <div class="blackout"></div>
           </div>
+
         </div>
       </div>
     </div>
